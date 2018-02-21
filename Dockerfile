@@ -15,6 +15,6 @@ RUN npm link test
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8000:8080
 
 CMD [ "npm", "start" ]
