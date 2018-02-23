@@ -15,13 +15,13 @@ npm install
 - After that. You should be able to run the app using 
 
 ```
-npm test
+npm run
 ```
 
 - You can run the tests in the same way
 
 ```
-node test.js
+npm test
 ```
 
 The project also includes a Dockerfile that will let you run the app inside a container. You just need to build 
