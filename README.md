@@ -15,7 +15,7 @@ npm install
 - After that. You should be able to run the app using 
 
 ```
-npm run
+npm start
 ```
 
 - You can run the tests in the same way
