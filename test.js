@@ -1,4 +1,3 @@
-var test= require('test');
 var assert = require('assert')
 
 function test() {
