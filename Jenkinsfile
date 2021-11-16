@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/uledwin/testWebhook.git', branch: 'master', credentialsId: 'ismailyenigul-github-user-token'])
+        git([url: 'https://github.com/uledwin/testWebhook.git', branch: 'master', credentialsId: 'uledwin-github-token'])
 
       }
     }
